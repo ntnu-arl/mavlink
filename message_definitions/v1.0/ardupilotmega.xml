@@ -1439,7 +1439,7 @@
       <field type="float" name="I">I component.</field>
       <field type="float" name="D">D component.</field>
     </message>
-    <message id="195" name="DEEPSTALL">
+    <!-- <message id="195" name="DEEPSTALL">
       <description>Deepstall path planning.</description>
       <field type="int32_t" name="landing_lat" units="degE7">Landing latitude.</field>
       <field type="int32_t" name="landing_lon" units="degE7">Landing longitude.</field>
@@ -1451,7 +1451,7 @@
       <field type="float" name="expected_travel_distance" units="m">Distance the aircraft expects to travel during the deepstall.</field>
       <field type="float" name="cross_track_error" units="m">Deepstall cross track error (only valid when in DEEPSTALL_STAGE_LAND).</field>
       <field type="uint8_t" name="stage" enum="DEEPSTALL_STAGE">Deepstall stage.</field>
-    </message>
+    </message> -->
     <message id="200" name="GIMBAL_REPORT">
       <description>3 axis gimbal measurements.</description>
       <field type="uint8_t" name="target_system">System ID.</field>
