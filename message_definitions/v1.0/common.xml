@@ -1946,11 +1946,11 @@
       </entry>
       <entry value="4000" name="MAV_CMD_SET_GUIDED_SUBMODE_STANDARD" hasLocation="false" isDestination="false">
         <description>This command sets the submode to standard guided when vehicle is in guided mode. The vehicle holds position and altitude and the user can input the desired velocities along all three axes.
-                  </description>
+        </description>
       </entry>
       <entry value="4001" name="MAV_CMD_SET_GUIDED_SUBMODE_CIRCLE" hasLocation="true" isDestination="false">
         <description>This command sets submode circle when vehicle is in guided mode. Vehicle flies along a circle facing the center of the circle. The user can input the velocity along the circle and change the radius. If no input is given the vehicle will hold position.
-                  </description>
+        </description>
         <param index="1" label="Radius" units="m">Radius of desired circle in CIRCLE_MODE</param>
         <param index="2">User defined</param>
         <param index="3">User defined</param>
@@ -5709,7 +5709,7 @@
       <field type="uint8_t" name="new_orientation" enum="MAV_SENSOR_ORIENTATION">orientation after calibration.</field>
       <field type="float" name="scale_factor">field radius correction factor</field>
     </message>
-    <message id="195" name="MAG_MUX">
+    <message id="196" name="MAG_MUX">
       <description>Stream x4 TMAG5273 sensors using a multiplexer</description>
       <field type="uint64_t" name="time_usec" units="us">Timestamp (UNIX Epoch time or time since system boot). The receiving end can infer timestamp format (since 1.1.1970 or since system boot) by checking for the magnitude of the number.</field>
       <field type="float[12]" name="mags"> Vector of tmag values. </field>
