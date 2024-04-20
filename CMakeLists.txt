@@ -23,7 +23,7 @@ option(USE_SYSTEM_PYMAVLINK "Generate mavlink files with system-wide installed m
 option(WITH_TESTS "Build test programs." OFF)
 option(WITH_BUILD_DEPS "Build dependencies." OFF) # no deps currently to build
 option(WITH_BUILD_STATIC "Build preferring static linking." ON)
-option(INSTALL_PYMAVLINK "Install pymavlink." ON)
+option(INSTALL_PYMAVLINK "Install pymavlink." OFF)
 
 # variables
 set(ROOT_THREAD TRUE CACHE INTERNAL "Is this the top level of the recursion?")
