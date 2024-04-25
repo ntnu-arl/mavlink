@@ -6383,6 +6383,12 @@
       <field type="uint64_t" name="time_usec" units="us">Timestamp (UNIX Epoch time or time since system boot). The receiving end can infer timestamp format (since 1.1.1970 or since system boot) by checking for the magnitude of the number.</field>
       <field type="float[12]" name="mags"> Vector of tmag values. </field>
     </message>
+    <message id="197" name="MAG_MUX_ANGLES">
+      <description>Stream x4 TMAG5273 azimuth and elvation angles computed with linear regression using TMAG5273</description>
+      <field type="uint64_t" name="time_usec" units="us">Timestamp (UNIX Epoch time or time since system boot). The receiving end can infer timestamp format (since 1.1.1970 or since system boot) by checking for the magnitude of the number.</field>
+      <field type="float[4]" name="azimuth"> Vector of azimuth values. </field>
+      <field type="float[4]" name="elevation"> Vector of elevation values. </field>
+    </message>
 
     <!-- 225 EFI_STATUS imported from ardupilotmega.xml -->
     <message id="225" name="EFI_STATUS">
